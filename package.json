@@ -1,16 +1,21 @@
 {
   "name": "wcreate",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "node index.js 1"
-  },
+  "description": "A Node CLI Utility to create Vanilla Webpage",
+  "bin": "index.js",
   "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "commander": "^9.3.0",
     "fs-extra": "^10.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ARogueOtaku/wcreate.git"
+  },
+  "author": "Amit Das",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ARogueOtaku/wcreate/issues"
+  },
+  "homepage": "https://github.com/ARogueOtaku/wcreate"
 }
