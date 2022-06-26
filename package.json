@@ -1,9 +1,14 @@
 {
   "name": "wcreate",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "A Node CLI Utility to create Vanilla Webpage",
-  "bin": "index.js",
+  "bin": "out/index.js",
   "keywords": [],
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc --build",
+    "prepublishOnly": "npm run build"
+  },
   "dependencies": {
     "commander": "^9.3.0",
     "fs-extra": "^10.1.0"
@@ -17,5 +22,9 @@
   "bugs": {
     "url": "https://github.com/ARogueOtaku/wcreate/issues"
   },
-  "homepage": "https://github.com/ARogueOtaku/wcreate"
+  "homepage": "https://github.com/ARogueOtaku/wcreate",
+  "devDependencies": {
+    "@types/fs-extra": "^9.0.13",
+    "typescript": "^4.7.4"
+  }
 }
