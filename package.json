@@ -1,6 +1,6 @@
 {
   "name": "wcreate",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "A Node CLI Utility to create Vanilla Webpage",
   "bin": "out/index.js",
   "keywords": [],
