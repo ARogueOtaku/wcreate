@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { program } from "commander";
 import { tailwindStructure } from "./resources/project-structures";
 import { createFolder } from "./utils/fileder-creater";
